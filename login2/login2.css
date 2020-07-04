@@ -1,0 +1,47 @@
+body
+{   
+    width:100%;
+    background-image:url('moroccan-flower-dark.png');
+    font-family:monospace;
+    font-size:xx-large;
+    color:#38147A;
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+	opacity: 0.5;
+}
+.box
+{
+	text-align:center;
+	width:350px;
+	height:400px;
+	margin:4em auto;
+	background-color:#FFFFD4;
+    border-radius:3em;
+	box-shadow: 1px 20px 30px 20px rgba(42,42,112,0.14);
+}
+.login, .user, .pass, .button, .new
+{
+	text-align:center;
+	display:block;
+	padding:10px;
+	margin:2em auto;
+    border-radius:1em;
+	outline:none;
+	
+}
+.login
+{
+    margin-top:15px;
+	padding:20px;
+    font-size:xx-large;	
+}
+.button
+{
+    cursor:pointer;
+}
+
+.new
+{
+	 font-size:large;
+	 cursor:pointer;
+}
+a{text-decoration:none;}
